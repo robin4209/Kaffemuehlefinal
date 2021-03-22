@@ -1,3 +1,23 @@
 public class kaffemühle
+
 {
+	KaffeBohnen kB;
+	Gemahlenerkaffe gemK;
+	
+	void mahlen(int gemK)
+	{
+		gemK = kB/0.5;
+	}
+	
+	void befüllen(int kB)
+	{
+		kB = kb + kB;
+	}
+	
+	void gemahlen (int gemK)
+	{
+		gemK = gemK + gemK;
+	}
+	
+}
 	
