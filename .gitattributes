@@ -1,25 +1,19 @@
 public class kaffemühle
 
 {
-	KaffeBohnen kB;
-	Gemahlenerkaffe gemK;
-	double fv;
 	
-	void mahlen(int gemK)
+	main()
 	{
-		gemK = kB/0.5;
-		fv = fv + 0.5;
-	}
-	
-	void befüllen(int kB)
-	{
-		kB = kb + kB;
-	}
-	
-	void leeren (int fv)
-	{
-		
-		if (fv == 10){STOP mahlen } ;
+		set.1fachkapazität(100.0);
+		openFach1(open);
+		befüllen(50.0);
+		closefach1(close);
+		bohnennehmem(40);
+		mahlen(40,20)
+		set.2fachkapazität(50);
+		openFach2(open);
+		entnahme(20);
+		closefach2(close);
 	}
 	
 }
