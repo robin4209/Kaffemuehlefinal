@@ -3,11 +3,12 @@ public class kaffemühle
 {
 	KaffeBohnen kB;
 	Gemahlenerkaffe gemK;
-	Fachvoll fv;
+	double fv;
+	
 	void mahlen(int gemK)
 	{
 		gemK = kB/0.5;
-		fv = fv + 0.5
+		fv = fv + 0.5;
 	}
 	
 	void befüllen(int kB)
@@ -18,7 +19,8 @@ public class kaffemühle
 	void leeren (int fv)
 	{
 		
-		if (fv = 10){STOP mahlen } ;
+		if (fv == 10){STOP mahlen } ;
 	}
+	
 }
 	
